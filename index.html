@@ -212,6 +212,22 @@
                             </a>
                         </div>
                     </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title pt-3">Enterprise</h3>
+                            <h2 class="card-title text-primary mb-0 pt-4">$499</h2>
+                            <div class="text-muted font-weight-medium mt-2">per month</div>
+                            <ul class="list-unstyled pricing-list">
+                                <li>Unlimited users</li>
+                                <li>Unlimited websites</li>
+                                <li>Access to premium templates</li>
+                                <li>24/7 support</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">
+                                Start free trial
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -352,6 +368,18 @@
             </div>
         </div>
     </div>
+
+    <form id="emissionsForm">
+        <label for="distance">Distance between ports (km):</label>
+        <input type="number" id="distance" name="distance" required><br><br>
+
+        <label for="percentage">Percentage of fuel from this route (%):</label>
+        <input type="number" id="percentage" name="percentage" required><br><br>
+
+        <button type="button" onclick="calculateEmissions()">Calculate Emissions</button>
+      </form>
+
+      <div id="emissionsResult"></div>
 </section>
 
 <!--footer-->
@@ -437,6 +465,19 @@
 </div>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script>
+    function calculateEmissions() {
+      var distance = parseFloat(document.getElementById("distance").value);
+      var percentage = parseFloat(document.getElementById("percentage").value);
+
+      if (!isNaN(distance) && !isNaN(percentage)) {
+        var emissions = distance * 2 * (percentage / 100); // Calculate emissions
+        document.getElementById("emissionsResult").innerHTML = "Emissions: " + emissions.toFixed(2) + " grams";
+      } else {
+        document.getElementById("emissionsResult").innerHTML = "Please enter valid numbers.";
+      }
+    }
+</script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
