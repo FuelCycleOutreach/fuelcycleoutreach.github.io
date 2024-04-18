@@ -521,12 +521,17 @@
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script>
     function calculateEmissions() {
-      var distance = parseFloat(document.getElementById("distance").value);
-      var percentage = parseFloat(document.getElementById("percentage").value);
+      var distance1 = parseFloat(document.getElementById("distance").value);
+      var percentage1 = parseFloat(document.getElementById("percentage").value);
+      var distance2 = parseFloat(document.getElementById("distance2").value);
+      var percentage2 = parseFloat(document.getElementById("percentage2").value);
+      var distance3 = parseFloat(document.getElementById("distance3").value);
+      var percentage3 = parseFloat(document.getElementById("percentage3").value);
+      var weighted_distance = distance1 * percentage1/100 + distance2 * percentage2/100 + distance3 * percentage3/100;
 
       if (!isNaN(distance) && !isNaN(percentage)) {
-        var emissions = distance * 2 * (percentage / 100); // Calculate emissions
-        document.getElementById("emissionsResult").innerHTML = "Emissions: " + emissions.toFixed(2) + " grams";
+        var emissions = weighted_distance * 2 ; // Calculate emissions
+        document.getElementById("emissionsResult").innerHTML = "Emissions: " + emissions.toFixed(2) + " kg";
       } else {
         document.getElementById("emissionsResult").innerHTML = "Please enter valid numbers.";
       }
