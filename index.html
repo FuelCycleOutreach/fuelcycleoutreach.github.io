@@ -529,7 +529,7 @@
       var percentage3 = parseFloat(document.getElementById("percentage3").value);
       var weighted_distance = distance1 * percentage1/100 + distance2 * percentage2/100 + distance3 * percentage3/100;
 
-      if (!isNaN(distance) && !isNaN(percentage)) {
+      if (!isNaN(distance1) && !isNaN(percentage1)) {
         var emissions = weighted_distance * 2 ; // Calculate emissions
         document.getElementById("emissionsResult").innerHTML = "Emissions: " + emissions.toFixed(2) + " kg";
       } else {
