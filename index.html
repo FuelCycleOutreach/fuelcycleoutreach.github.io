@@ -351,17 +351,29 @@
         </div> -->
     </div>
 
-    <form id="emissionsForm">
-        <label for="distance">Distance between ports (km):</label>
-        <input type="number" id="distance" name="distance" required><br><br>
+    <div class="row mt-6">
+        <div class="col-md-4 mr-auto">
+            <h3>Examine some alternatives.</h3>
+            <p class="lead">
+                Blah blah blah blah blah Blah blah blah blah blah Blah blah blah blah blah Blah blah blah blah blah Blah blah blah blah blah Blah blah blah blah blah Blah blah blah blah blah Blah blah blah blah blah Blah blah blah blah blah Blah blah blah blah blah Blah blah blah blah blah Blah blah blah blah blah Blah blah blah blah blah.
+            </p>
+        </div>
+        <div class="col-md-7 offset-md-1">
+            <form id="emissionsForm">
+                <label for="distance">Distance between ports (km):</label>
+                <input type="number" id="distance" name="distance" required><br><br>
 
-        <label for="percentage">Percentage of fuel from this route (%):</label>
-        <input type="number" id="percentage" name="percentage" required><br><br>
+                <label for="percentage">Percentage of fuel from this route (%):</label>
+                <input type="number" id="percentage" name="percentage" required><br><br>
 
-        <button type="button" onclick="calculateEmissions()">Calculate Emissions</button>
-      </form>
+                <button type="button" onclick="calculateEmissions()">Calculate Emissions</button>
+              </form>
 
-      <div id="emissionsResult"></div>
+              <div id="emissionsResult"></div>
+        </div>
+    </div>
+
+
 </section>
 
 <!--communication section-->
