@@ -521,20 +521,33 @@
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script>
     function calculateEmissions() {
-      var distance1 = parseFloat(document.getElementById("distance").value);
-      var percentage1 = parseFloat(document.getElementById("percentage").value);
-      var distance2 = parseFloat(document.getElementById("distance2").value);
-      var percentage2 = parseFloat(document.getElementById("percentage2").value);
-      var distance3 = parseFloat(document.getElementById("distance3").value);
-      var percentage3 = parseFloat(document.getElementById("percentage3").value);
-      var weighted_distance = distance1 * percentage1/100 + distance2 * percentage2/100 + distance3 * percentage3/100;
+        var distance1 = parseFloat(document.getElementById("distance").value);
+        var percentage1 = parseFloat(document.getElementById("percentage").value);
 
-      if (!isNaN(distance1) && !isNaN(percentage1)) {
-        var emissions = weighted_distance * 2 ; // Calculate emissions
+        // Check if distance1 and percentage1 are provided
+        if (isNaN(distance1) || isNaN(percentage1)) {
+            document.getElementById("emissionsResult").innerHTML = "Please enter valid numbers for the first distance and percentage.";
+            return;
+        }
+
+        // Initialize variables for optional inputs
+        var distance2 = parseFloat(document.getElementById("distance2").value);
+        var percentage2 = parseFloat(document.getElementById("percentage2").value);
+        var distance3 = parseFloat(document.getElementById("distance3").value);
+        var percentage3 = parseFloat(document.getElementById("percentage3").value);
+
+        // Calculate weighted distance based on provided inputs
+        var weighted_distance = distance1 * percentage1 / 100;
+        if (!isNaN(distance2) && !isNaN(percentage2)) {
+            weighted_distance += distance2 * percentage2 / 100;
+        }
+        if (!isNaN(distance3) && !isNaN(percentage3)) {
+            weighted_distance += distance3 * percentage3 / 100;
+        }
+
+        // Calculate emissions
+        var emissions = weighted_distance * 2;
         document.getElementById("emissionsResult").innerHTML = "Emissions: " + emissions.toFixed(2) + " kg";
-      } else {
-        document.getElementById("emissionsResult").innerHTML = "Please enter valid numbers.";
-      }
     }
 </script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
