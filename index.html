@@ -18,6 +18,49 @@
 
     <!-- Bootstrap CSS / Color Scheme -->
     <link rel="stylesheet" href="css/default.css" id="theme-color">
+
+    <style type="text/css">body {
+            font-family: monospace;
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+        }
+        #chat-container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        #chat-box {
+            width: 100%;
+            height: 300px;
+            padding: 10px;
+            background-color: #333;
+            border: none;
+            resize: none;
+            box-sizing: border-box;
+            overflow-y: scroll;
+            scrollbar-width: thin;
+        }
+        #input-box {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            box-sizing: border-box;
+        }
+        #input-box:focus {
+            outline: none;
+        }
+        #input-container {
+            padding: 10px;
+            background-color: #333;
+            border-top: 2px solid #fff;
+        }
+    </style>
 </head>
 <body>
 
@@ -265,11 +308,41 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 mx-auto text-center">
-                <h2>Frequently Asked Questions</h2>
-                <p class="text-muted lead">Answers to most common questions.</p>
+                <h2>Get the Basics</h2>
+                <p class="text-muted lead">Ask simple questions of our chatbot Corey. We've given them answers to everything from fuel types to reactor types.</p>
             </div>
         </div>
-        <div class="row mt-5">
+        <div id="chat-container">
+            <div id="chat-box" readonly="readonly">Welcome to the Chat Bot Interface!</div>
+
+            <div id="input-container"><input id="input-box" placeholder="Type your message here..." type="text" /></div>
+            </div>
+            <script>
+                    const chatBox = document.getElementById('chat-box');
+                    const inputBox = document.getElementById('input-box');
+
+                    inputBox.addEventListener('keydown', function(event) {
+                        if (event.key === 'Enter') {
+                            sendMessage(inputBox.value);
+                            inputBox.value = '';
+                        }
+                    });
+
+                    function sendMessage(message) {
+                        const newMessage = document.createElement('p');
+                        newMessage.textContent = "> " + message;
+                        chatBox.appendChild(newMessage);
+                        // Here, you send the message to your server-side code for processing
+                        // and receiving a response from your chat bot.
+                        // For demonstration purposes, let's just echo back the user's message.
+                        const botResponse = document.createElement('p');
+                        botResponse.textContent = "Bot: Echoing back - " + message;
+                        chatBox.appendChild(botResponse);
+                        // Scroll to the bottom of the chat box to show the latest message
+                        chatBox.scrollTop = chatBox.scrollHeight;
+                    }
+            </script>
+        <!-- <div class="row mt-5">
             <div class="col-md-10 mx-auto">
                 <div class="row">
                     <div class="col-md-6 mb-5">
@@ -298,7 +371,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- <div class="row mt-4">
             <div class="col-md-6 mx-auto text-center">
                 <h5 class="mb-4">Have questions?</h5>
