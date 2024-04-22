@@ -653,8 +653,8 @@
         }
 
         // Calculate emissions
-        var emissions = weighted_distance * 2;
-        document.getElementById("emissionsResult").innerHTML = "Emissions: " + emissions.toFixed(2) + " kg";
+        var emissions = weighted_distance * ((12 + 8/24)/6224) * 39.8 * 298;
+        document.getElementById("emissionsResult").innerHTML = "Emissions: " + emissions.toFixed(2) + " t CO2";
     }
 </script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
