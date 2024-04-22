@@ -1,0 +1,14 @@
+{
+    "categories": [
+        {
+            "name": "Category 1",
+            "questions": ["Question 1", "Question 2"],
+            "answers": ["Answer 1", "Answer 2"]
+        },
+        {
+            "name": "Category 2",
+            "questions": ["Question 3", "Question 4"],
+            "answers": ["Answer 3", "Answer 4"]
+        }
+    ]
+}

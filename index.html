@@ -310,6 +310,71 @@
             </div>
         </div>
         <div id="chat-container">
+            <div id="chat-box">Corey: Hi, I'm Corey! You can ask me simple questions about the nuclear fuel cycle.</div>
+
+            <div id="input-container"><input id="input-box" placeholder="Type your message here..." type="text" /></div>
+        </div>
+
+        <script>
+            const chatBox = document.getElementById('chat-box');
+            const inputBox = document.getElementById('input-box');
+
+            // Load the JSON data
+            let jsonData;
+            fetch('test.json')
+                .then(response => response.json())
+                .then(data => {
+                    jsonData = data;
+                })
+                .catch(error => console.error('Error loading JSON file:', error));
+
+            inputBox.addEventListener('keydown', function(event) {
+                if (event.key === 'Enter') {
+                    const message = inputBox.value.trim();
+                    if (message) {
+                        sendMessage(message);
+                        inputBox.value = '';
+                    }
+                }
+            });
+
+            function sendMessage(message) {
+                const newMessage = document.createElement('p');
+                newMessage.textContent = "> " + message;
+                chatBox.appendChild(newMessage);
+
+                // Check if the message is a category
+                const category = jsonData.categories.find(cat => cat.name.toLowerCase() === message.toLowerCase());
+                if (category) {
+                    category.questions.forEach(question => {
+                        const botResponse = document.createElement('p');
+                        botResponse.textContent = question;
+                        chatBox.appendChild(botResponse);
+                    });
+                } else {
+                    // Check if the message is a question within a category
+                    let found = false;
+                    jsonData.categories.forEach(category => {
+                        const foundQuestion = category.questions.find(q => q.toLowerCase() === message.toLowerCase());
+                        if (foundQuestion) {
+                            const botResponse = document.createElement('p');
+                            botResponse.textContent = category.answers[category.questions.indexOf(foundQuestion)];
+                            chatBox.appendChild(botResponse);
+                            found = true;
+                        }
+                    });
+                    if (!found) {
+                        const botResponse = document.createElement('p');
+                        botResponse.textContent = "Sorry, I couldn't find an answer to that question.";
+                        chatBox.appendChild(botResponse);
+                    }
+                }
+
+                // Scroll to the bottom of the chat box to show the latest message
+                chatBox.scrollTop = chatBox.scrollHeight;
+            }
+        </script>
+        <!-- <div id="chat-container">
             <div id="chat-box" readonly="readonly">Corey: Hi, I'm Corey! You can ask me simple questions about the nuclear fuel cycle.</div>
 
             <div id="input-container"><input id="input-box" placeholder="Type your message here..." type="text" /></div>
@@ -338,7 +403,7 @@
                         // Scroll to the bottom of the chat box to show the latest message
                         chatBox.scrollTop = chatBox.scrollHeight;
                     }
-            </script>
+            </script> -->
         <!-- <div class="row mt-5">
             <div class="col-md-10 mx-auto">
                 <div class="row">
@@ -482,19 +547,19 @@
             <div class="col-md-10 mx-auto">
                 <div class="row">
                     <div class="col-md-6 mb-5">
-                        <h6>Question?</h6>
-                        <p class="text-muted">Nam liber tempor cum soluta nobis eleifend option congue nihil imper per tem por legere me doming.</p>
+                        <h6>Accountability</h6>
+                        <p class="text-muted">Address the relevant history to your community, such as uranium mining, waste management, implementing cleanup efforts, and health risk management measures.</p>
                     </div>
                     <div class="col-md-6 mb-5">
-                        <h6>Question?</h6>
-                        <p class="text-muted">Nam liber tempor cum soluta nobis eleifend option congue nihil imper per tem por legere me doming.</p>
+                        <h6>Community Involvement</h6>
+                        <p class="text-muted">Involving communities in decision-making processes related to nuclear projects, including health infrastructure development, exposure monitoring, waste handling, and hazard management planning are all paramount.</p>
                     </div>
                     <div class="col-md-6 mb-5">
-                        <h6>Question?</h6>
-                        <p class="text-muted">Nam liber tempor cum soluta nobis eleifend option congue nihil imper per tem por legere me doming.</p>
+                        <h6>Electricity Access</h6>
+                        <p class="text-muted">The issue of electricity access in communities requires the people coming to the community to understand the goals, needs, and wants of the community.</p>
                     </div>
                     <div class="col-md-6 mb-5">
-                        <h6>Question?</h6>
+                        <h6>Questions?</h6>
                         <p class="text-muted">Nam liber tempor cum soluta nobis eleifend option congue nihil imper per tem por legere me doming.</p>
                     </div>
                     <div class="col-md-6 mb-5">
@@ -531,6 +596,23 @@
                         <img src="img/blog-3.jpg" class="img-fluid rounded d-block mx-auto" alt="Work 3"/> -->
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row mt-6">
+            <div class="col-md-7 offset-md-1">
+                <ol class="features-list">
+                    <li><b>Identify</b> your goals with a community.</li>
+                    <li><b>Clarify</b> who is in the affected community.</li>
+                    <li><b>Listen</b> to members of the community on their goals.</li>
+                    <li><b>Align</b> your services with the community goals.</li>
+                    <li><b>Collaborate</b> with them to service the community at large.</li>
+                </ol>
+            </div>
+            <div class="col-md-4 mr-auto">
+                <h3>Steps for community engagement.</h3>
+                <p class="lead">
+
+                </p>
             </div>
         </div>
     </div>
