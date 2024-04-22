@@ -1,0 +1,948 @@
+{
+    "categories": [
+        {
+            "name": "Analysis",
+            "questions": [
+              "What are the primary metrics commonly used in fuel cycle analysis?",
+              "How do scenarios with SWU and mass of enriched uranium provide a granular look at TRISO availability?",
+              "What factors contribute to the calculation of SWU?",
+              "Why is SWU considered a useful metric in nuclear fuel cycle analysis?",
+              "How is SWU measured and expressed in calculations?",
+              "What factors contribute to the overall shape of the SWU capacity requirements graph?",
+              "How are Scenarios 2 and 3 differentiated in terms of infrastructure placement?"
+            ],
+            "answers": [
+              "The primary metrics commonly used in fuel cycle analysis are financial-based, but in this study, the metrics used are separative work units (SWU) and the mass of enriched uranium.",
+              "Scenarios with SWU and mass of enriched uranium offer a detailed examination of TRISO availability by considering various fuel cycle options.",
+              "Factors such as the quantity of material processed and the difference between the product and feed enrichment levels contribute to the calculation of SWU.",
+              "SWU is considered useful in nuclear fuel cycle analysis because it provides a standardized measure of the effort involved in uranium enrichment, aiding in cost estimation and process optimization.",
+              "SWU is measured in kilograms of SWU (kgSWU) and is typically expressed in terms of the amount of separative work required to enrich a given quantity of uranium.",
+              "The overall shape of the SWU capacity requirements graph is influenced by factors such as reactor deployment schedules and energy demand fluctuations.",
+              "Scenarios 2 and 3 differ in the distribution of enrichment facilities, impacting their respective SWU capacity requirements."
+            ]
+          },
+          {
+            "name": "authors",
+            "questions": [
+                "Who are the authors?",
+                "Who can we contact?",
+                "How can we contact them?",
+                "How can we contact Nathan?",
+                "How can we contact Ryan?",
+                "How can we contact Runxia?",
+                "How can we contact Wen?",
+                "What capacity did they perform this work in?",
+                "Why did they do this?"
+            ],
+            "answers": [
+                "Nathan Ryan and Runxia Wen are the authors, and this was conducted for an assignment in NPRE 480.",
+                "You can contact Nathan at nsryan2@illinois.edu and Runxia at runxiaw2@illinois.edu",
+                "You can contact Nathan at nsryan2@illinois.edu and Wen at runxiaw2@illinois.edu",
+                "You can contact Nathan at nsryan2@illinois.edu",
+                "You can contact Ryan at nsryan2@illinois.edu",
+                "You can contact Runxia at runxiaw2@illinois.edu",
+                "You can contact Wen at runxiaw2@illinois.edu",
+                "This work was performed as an assignment in NPRE 480"
+            ]
+          },
+          {
+            "name": "Conclusions",
+            "questions": [
+              "Why does the 2020-2030 time frame show steady SWU capacity requirements?",
+              "What is the primary objective of the current phase of the project?",
+              "What will the subsequent phase of the project focus on exploring?",
+              "How does the location of enrichment facilities overseas impact the fuel cycle?",
+              "How does the location of enrichment facilities overseas impact the fuel cycle, and why is it considered in the analysis?",
+              "What insights can be gained from analyzing the different scenarios presented in Table 1?",
+              "What happens to uranium after it is extracted?"
+            ],
+            "answers": [
+              "The 2020-2030 time frame shows steady SWU capacity requirements due to the concurrent deployment and decommissioning of LWR-like and Xe-100-like reactors.",
+              "The current phase of the project focuses on evaluating the environmental impact of enrichment processes required for replacing LWRs.",
+              "The subsequent phase of the project aims to investigate collaborative enrichment schemes proposed by government agencies and their environmental implications.",
+              "The location of enrichment facilities overseas impacts the fuel cycle by influencing the deployment and distribution of nuclear fuel cycle facilities.",
+              "The location of enrichment facilities overseas influences the distribution and operation of nuclear fuel cycle facilities, which is essential to consider in the analysis to understand global fuel cycle dynamics.",
+              "Analyzing the different scenarios allows for insights into the potential impacts of different combinations of U.S. and international enrichment on the fuel cycle dynamics and energy security.",
+              "After extraction, uranium undergoes conversion into UO2, followed by enrichment to a desired concentration of 235U."
+            ]
+          },
+          {
+            "name": "Current Benefits",
+            "questions": [
+              "Why nuclear energy is the best?",
+              "Why nuclear energy is good?",
+              "What nuclear energy is used for nuclear which energy?",
+              "Are nuclear energy good?",
+              "How nuclear energy is converted into electricity?"
+            ],
+            "answers": [
+              "Nuclear energy is considered by some to be a good energy source due to its high energy density, low greenhouse gas emissions, and reliable output.",
+              "Nuclear energy is good because it provides a reliable and low-carbon source of electricity, which can help reduce dependence on fossil fuels and mitigate climate change.",
+              "Nuclear energy is used for various purposes including electricity generation, propulsion in naval vessels, and medical applications such as cancer treatment.",
+              "The perception of nuclear energy as 'good' or 'bad' varies depending on factors such as safety, environmental impact, and geopolitical considerations.",
+              "Nuclear energy is converted into electricity through the use of steam turbines driven by heat generated from nuclear reactions."
+            ]
+          },
+          {
+            "name": "Current Details",
+            "questions": [
+              "Which nuclear energy is generated?",
+              "What's nuclear energy in physics?",
+              "What nuclear energy do we use?",
+              "Which nuclear energy is generated?",
+              "Where nuclear energy from?",
+              "How nuclear energy works?",
+              "How nuclear energy is generated?",
+              "How nuclear energy is made?",
+              "What nuclear energy is?",
+              "What nuclear energy is used for?"
+            ],
+            "answers": [
+              "Nuclear energy is generated through nuclear reactions, typically in nuclear reactors where controlled fission or fusion reactions occur.",
+              "In physics, nuclear energy refers to the energy released during nuclear reactions, either through fission or fusion processes.",
+              "We primarily use nuclear fission to generate nuclear energy, where heavy atomic nuclei split into smaller ones, releasing energy in the process.",
+              "Nuclear energy is primarily generated through nuclear fission reactions in nuclear reactors.",
+              "Nuclear energy primarily comes from the fission of uranium or plutonium atoms in nuclear reactors.",
+              "Nuclear energy works by harnessing the energy released from nuclear reactions, typically fission of uranium nuclei, to produce heat, which is then converted into electricity.",
+              "Nuclear energy is generated through controlled nuclear reactions, where the heat produced is used to generate steam, driving turbines connected to generators to produce electricity.",
+              "Nuclear energy is made by inducing controlled nuclear reactions in nuclear reactors, typically using uranium or plutonium as fuel.",
+              "Nuclear energy refers to the energy released during nuclear reactions, typically in the form of heat, which can be converted into electricity.",
+              "Nuclear energy is used for electricity generation, propulsion in naval vessels, medical applications, and industrial processes."
+            ]
+          },
+          {
+            "name": "Current Reactors",
+            "questions": [
+              "Where nuclear power plant in India?",
+              "Where nuclear energy is generated?",
+              "Where nuclear energy comes from?",
+              "How nuclear energy is used?",
+              "How nuclear energy is created?",
+              "What nuclear power stations are in UK?",
+              "What nuclear power plant?"
+            ],
+            "answers": [
+              "India has several nuclear power plants, including Tarapur, Kudankulam, and Rajasthan Atomic Power Station.",
+              "Nuclear energy is generated in nuclear power plants where controlled nuclear reactions take place to produce heat, which is then converted into electricity.",
+              "Nuclear energy primarily comes from the energy released during nuclear reactions, particularly in the fission process.",
+              "Nuclear energy is used for electricity generation, industrial processes, medical applications, and propulsion in naval vessels.",
+              "Nuclear energy is created through the release of energy during nuclear reactions, particularly in fission and fusion processes.",
+              "The UK has several nuclear power stations, including Hinkley Point, Sizewell, and Dungeness.",
+              "Nuclear power plants are facilities that generate electricity through controlled nuclear reactions, typically using uranium or plutonium as fuel."
+            ]
+          },
+          {
+            "name": "Disposal",
+            "questions": [
+              "How does the production of depleted uranium contribute to nuclear waste?",
+              "What challenges does the disposal of spent fuel pose in the once-through fuel cycle?",
+              "Why does the number of Xe-100-like reactors increase as LWRs are decommissioned?"
+            ],
+            "answers": [
+              "The production of depleted uranium contributes to nuclear waste by adding to the radioactive byproducts generated during the fuel cycle.",
+              "Disposal of spent fuel in the once-through fuel cycle poses challenges due to the need for facilities to last for more than 50,000 years for radioactive decay.",
+              "The number of Xe-100-like reactors increases as LWRs are decommissioned due to the smaller energy capacity of Xe-100-like reactors compared to LWRs."
+            ]
+          },
+          {
+            "name": "Enrichment",
+            "questions": [
+              "What are the three enrichment processes for uranium?",
+              "Which company has the largest enrichment capacity in the world?",
+              "How are the percentages of U.S. enrichment and international enrichment distributed across the four scenarios?",
+              "What is the main focus of this part of the project?"
+            ],
+            "answers": [
+              "The three enrichment processes for uranium are gaseous diffusion, gas centrifuge, and laser separation, with gas centrifuge being the most popular.",
+              "Russian company Rosatom has the largest enrichment capacity in the world, followed by Urenco, co-owned by Germany, Netherlands, and the United Kingdom.",
+              "Across the four scenarios, the percentages of U.S. enrichment and international enrichment vary, influencing the dynamics of the fuel cycle and highlighting different strategic considerations.",
+              "The main focus of this part of the project is to assess the environmental impact of the enrichment process required to replace the existing fleet of LWRs."
+            ]
+          },
+          {
+            "name": "Environment Impacts",
+            "questions": [
+              "Why nuclear energy is good for the environment?",
+              "Are nuclear energy clean?",
+              "Are nuclear energy renewable or nonrenewable?",
+              "Can nuclear energy solve climate change?"
+            ],
+            "answers": [
+              "Nuclear energy is good for the environment because it produces baseload electricity with minimal greenhouse gas emissions, helping to mitigate climate change.",
+              "Nuclear energy is considered relatively clean in terms of greenhouse gas emissions compared to fossil fuels.",
+              "Nuclear energy is generally considered nonrenewable due to its reliance on finite resources like uranium, but there are other forms of fuel that can be used to produce nuclear energy and we can recycle the used fuel to extend their lifetimes.",
+              "Nuclear energy has the potential to contribute to mitigating climate change due to its low carbon emissions compared to fossil fuels and important role in baseload energy production."
+            ]
+          },
+          {
+            "name": "Extraction",
+            "questions": [
+              "Where does most of the world's uranium production come from?",
+              "Where is a significant portion of the world's uranium reserve located?"
+            ],
+            "answers": [
+              "Most of the world's uranium production comes from countries like Kazakhstan, Canada, and Namibia.",
+              "A significant portion of the world's uranium reserve, about 28%, is located in Australia."
+            ]
+          },
+          {
+            "name": "Fabrication",
+            "questions": [
+              "How is enriched solid UF6 processed in a fabrication facility?",
+              "What is the most widely-used fabrication method for fuel kernels in TRISO particles?",
+              "Can you describe the sol-gel process used for fabricating fuel kernels in TRISO particles?",
+              "How is the coating applied to TRISO fuel kernels, and what is the process called?",
+              "Which companies own facilities for manufacturing TRISO particles, and where are they located?",
+              "What is the production capability of BWX Technologies, Inc. (BWXT), and where are their facilities located?",
+              "When did Ultra Safe Nuclear Corporation (USNC) open its Pilot Fuel Manufacturing facility (PFM), and where is it located?",
+              "When did X-energy begin construction of the TRISO-X Fuel Fabrication Facility (TF3), and where is it located?"
+            ],
+            "answers": [
+              "Enriched solid UF6 is heated to gaseous form in a fabrication facility, mixed with steam to form UO2F2, and then processed into UO2 powder, fuel pellets, and fuel rods.",
+              "The sol-gel process is the most widely-used fabrication method for fuel kernels in TRISO particles.",
+              "In the sol-gel process, actinides are dissolved in nitric acid, and metal oxide is precipitated by pumping ammonia to form a gel sphere, which is then sintered into a kernel.",
+              "The coating is applied to TRISO fuel kernels using the Fluidized-Bed Chemical Vapor Deposition system (FB-CVD).",
+              "BWX Technologies, Inc. (BWXT) and Ultra Safe Nuclear Corporation (USNC) own facilities for manufacturing TRISO particles, located in Lynchburg, Virginia, and Oak Ridge, Tennessee, respectively.",
+              "BWX Technologies, Inc. (BWXT) has two factories in Lynchburg, Virginia licensed by the U.S. Nuclear Regulatory Commission (NRC) with a total production capability of more than a hundred kg of TRISO.",
+              "Ultra Safe Nuclear Corporation (USNC) opened its Pilot Fuel Manufacturing facility (PFM) in August 2022, located at the East Tennessee Technology Park in Oak Ridge, Tennessee.",
+              "X-energy began construction of the TRISO-X Fuel Fabrication Facility (TF3) in Oak Ridge, Tennessee, and the facility is intended for the commercial production of TRISO-X particles."
+            ]
+          },
+          {
+            "name": "Fossil Fuels",
+            "questions": [
+              "Can nuclear energy replace fossil fuels?"
+            ],
+            "answers": [
+              "Nuclear energy has the potential to replace fossil fuels in electricity generation, and advanced reactor companies are starting to examine how to replace small parts of coal plants and plug in their reactor designs."
+            ]
+          },
+          {
+            "name": "Fuel",
+            "questions": [
+              "What is TRISO?",
+              "What is TRISO fuel?",
+              "What is LEU?",
+              "What is leu",
+              "What is LEU fuel?",
+              "How do countries like Kazakhstan, Canada, and Namibia contribute to global uranium production?"
+            ],
+            "answers": [
+              "TRISO stands for tristructural isotropic fuel, a high assay low enriched uranium fuel form that many advanced reactors are considering as a fuel source.",
+              "LEU stands for low enriched uranium, a type of fuel used by traditional LWRs and being considered by some SMRs.",
+              "Countries like Kazakhstan, Canada, and Namibia contribute significantly to global uranium production, with around two-thirds of the world's production coming from these regions."
+            ]
+          },
+          {
+            "name": "Fuel Cycle Setup",
+            "questions": [
+              "What does the nuclear fuel cycle describe?",
+              "What is the difference between a 'once-through' fuel cycle and a 'closed' fuel cycle?",
+              "How are facilities in the U.S. arranged in the front-end of the fuel cycle?",
+              "Where is the back end of the nuclear fuel cycle collocated in the U.S.?",
+              "What is the significance of the 'collect and wait' pathway in the front-end of the fuel cycle?",
+              "What is the fuel cycle setup?",
+              "What are the stages of the fuel cycle?",
+              "How is nuclear fuel processed and utilized throughout the fuel cycle?",
+              "What are the key facilities involved in the fuel cycle setup?"
+            ],
+            "answers": [
+              "The nuclear fuel cycle describes the series of steps that nuclear fuel goes through from extraction to disposal.",
+              "In a 'once-through' fuel cycle, the fuel goes through the cycle once, while in a 'closed' fuel cycle, the fuel can be reprocessed and recycled.",
+              "Facilities in the U.S. are arranged in the front-end of the fuel cycle using a 'collect and wait' pathway.",
+              "The back end of the nuclear fuel cycle in the U.S. is collocated with the reactors that burn the fuel, with some exceptions like the consolidated storage facility in Morris, Illinois.",
+              "The 'collect and wait' pathway in the front-end of the fuel cycle is significant for keeping facilities separate and managing nuclear materials.",
+              "The fuel cycle setup refers to the entire process of nuclear fuel production, utilization, and disposal.",
+              "The stages of the fuel cycle typically include mining and milling, conversion, enrichment, fabrication, reactor operation, spent fuel management, and potentially reprocessing and disposal.",
+              "Nuclear fuel undergoes various processes such as mining, conversion of uranium ore into usable forms, enrichment to increase the concentration of fissile isotopes, fabrication into fuel assemblies, utilization in reactors, and management of spent fuel.",
+              "Key facilities involved in the fuel cycle setup include uranium mines and mills, conversion plants, enrichment facilities, fuel fabrication plants, nuclear reactors, spent fuel storage facilities, and potentially reprocessing plants and disposal repositories."
+            ]
+          },
+          {
+            "name": "Fuel Materials",
+            "questions": [
+              "What is the radioactivity level of used fuel in the once-through fuel cycle?",
+              "Why has domestic uranium production decreased in the U.S. over the past decade?",
+              "What is TRISO coated fuel particle, and where is it commonly used?",
+              "What is the total diameter range of a TRISO particle, and what is the diameter of the uranium-bearing kernel?",
+              "Can you describe the layers coating the uranium-bearing kernel in a TRISO particle, from the inside to the outside?",
+              "What is the function of each layer in the TRISO particle coating?",
+              "Where nuclear energy is found?"
+            ],
+            "answers": [
+              "The radioactivity level of used fuel in the once-through fuel cycle is around 105TBq per tonne of fuel.",
+              "Domestic uranium production in the U.S. has decreased due to various factors, including economic considerations and competition from global markets.",
+              "TRISO coated fuel particle is a ceramic fuel sphere coated by four layers of carbon, commonly used in High-Temperature Gas-cooled Reactors (HTGR).",
+              "A TRISO particle typically has a total diameter ranging from 0.8 to 1 mm, with the uranium-bearing kernel diameter between 0.35 to 0.6 mm.",
+              "The layers coating the uranium-bearing kernel in a TRISO particle are: porous pyrocarbon buffer, dense Inner PyroCarbon layer (IPyC), SiC layer, and Outer PyroCarbon layer (OPyC).",
+              "The porous pyrocarbon buffer provides space for gaseous fission products, IPyC serves as a deposition surface for the SiC layer, SiC provides structural strength and traps solid fission products, and OPyC protects the SiC layer and serves as a bonding surface to the graphite matrix.",
+              "Uranium, the current primary fuel for nuclear energy, is found in various locations around the world, including Australia, Canada, and Kazakhstan."
+            ]
+          },
+          {
+            "name": "General Drawbacks",
+            "questions": [
+              "Why nuclear energy is bad?",
+              "What are the drawbacks of nuclear?",
+              "What is wrong with nuclear?",
+              "Why nuclear bad?",
+              "Who nuclear bad?"
+            ],
+            "answers": [
+              "Nuclear energy is different from other forms of energy because of it's use of material that could be an initial step in creating a nuclear weapon. It has similar drawbacks to other forms of energy in waste management, citing, and construction costs. The waste management is fundamentally different for nuclear from fossil fuels in that the waste is solid, strictly controlled, and highly studied. The wastes are long-lived, which provides similar concerns to wind and solar energy, but nuclear wastes are sometimes radioactive for long periods of time which provides a different engineering challenge that wind and most solar wastes."
+            ]
+          },
+          {
+            "name": "HALEU",
+            "questions": [
+              "What is HALEU?",
+              "How does HALEU differ from LEU?",
+              "What are the potential applications of HALEU?",
+              "What considerations are involved in the production and use of HALEU?"
+            ],
+            "answers": [
+              "HALEU stands for High-Assay Low-Enriched Uranium. It refers to uranium with a higher assay or concentration of U-235 compared to typical LEU, usually between 5% and 20% enrichment.",
+              "HALEU differs from LEU in that it has a higher assay of U-235, making it suitable for certain advanced reactor designs that require higher enrichment levels for optimal performance.",
+              "Potential applications of HALEU include use as fuel in advanced reactor concepts such as small modular reactors (SMRs), next-generation reactors, and other high-performance systems that benefit from higher enrichment levels.",
+              "Considerations involved in the production and use of HALEU include regulatory approval, licensing, safeguards, security measures, and compatibility with existing fuel cycle infrastructure."
+            ]
+          },
+          {
+            "name": "History",
+            "questions": [
+              "Who created nuclear energy?",
+              "Who invented nuclear energy?",
+              "Who discovered nuclear energy?",
+              "Who nuclear power?"
+            ],
+            "answers": [
+              "Nuclear energy as a concept wasn't created by a single individual; it emerged from the work of scientists around the world.",
+              "Nuclear energy wasn't 'invented' in the traditional sense. It evolved from scientific discoveries about the behavior of atoms and the release of energy through nuclear reactions.",
+              "The discovery of nuclear energy can be attributed to various scientists such as Maria Goeppert Mayer, Henri Becquerel, Marie Curie, and Ernest Rutherford, among others.",
+              "Nuclear power is primarily generated by power plants that utilize nuclear reactors to produce electricity."
+            ]
+          },
+          {
+            "name": "Ideas",
+            "questions": [
+              "Could you explain the concept of SWU with a practical example?",
+              "What happens during the fission process in a typical thermal reactor?",
+              "When was the concept of TRISO particles first implemented, and where?",
+              "What relationship does the replacement scheme illustrate between the deployment of TRISO-fueled reactors and LWRs?",
+              "What will be examined in the next part of the project?",
+              "Where nuclear energy is used?",
+              "Can nuclear energy be stored?"
+            ],
+            "answers": [
+              "For example, if a facility processes 100 kilograms of uranium with a feed enrichment level of 3% to produce uranium with an enrichment level of 5%, the SWU can be calculated using the SWU formula.",
+              "In a typical thermal reactor, U-235 undergoes fission by absorbing a neutron, releasing fission products and fast neutrons.",
+              "The concept of TRISO particles was first implemented in the UK for the Dragon Project in the 1950s.",
+              "The replacement scheme illustrates the relationship between the deployment of TRISO-fueled reactors and LWRs, providing insights into potential deployment patterns.",
+              "In the next part of the project, the environmental impacts of collaborative enrichment schemes proposed by government agencies will be examined.",
+              "Nuclear energy is used for electricity generation, propulsion in ships and submarines, desalination of water, and various industrial applications.",
+              "Nuclear energy can be stored in the form of nuclear fuel assemblies, and some advanced reactor companies are looking in to using special materials to store heat from the reactor for later use."
+            ]
+          },
+          {
+            "name": "International Agreements",
+            "questions": [
+              "What collaboration led to the opening of the Pilot Fuel Manufacturing facility (PFM)?"
+            ],
+            "answers": [
+              "USNC collaborated with Framatome to open the Pilot Fuel Manufacturing facility (PFM)."
+            ]
+          },
+          {
+            "name": "LEU",
+            "questions": [
+              "What is LEU?",
+              "How is LEU different from highly enriched uranium (HEU)?",
+              "What are the common uses of LEU?",
+              "What are the advantages of using LEU?"
+            ],
+            "answers": [
+              "LEU stands for Low-Enriched Uranium. It refers to uranium with a lower concentration of the fissile isotope U-235 compared to natural uranium or highly enriched uranium.",
+              "LEU differs from highly enriched uranium (HEU) in that it contains a lower proportion of the fissile isotope U-235, typically below 20% enrichment.",
+              "LEU is commonly used as fuel in light-water reactors (LWRs) for electricity generation, as well as in research reactors, medical isotope production, and other civilian applications.",
+              "The advantages of using LEU include reduced proliferation risk, enhanced safety due to lower enrichment levels, wider availability and accessibility, and compliance with international non-proliferation agreements. One of the biggest advantages currently is that the infrastructure to support LEU fuel is already in place."
+            ]
+          },
+          {
+            "name": "Nuclear Future",
+            "questions": [
+              "Will nuclear energy make a comeback?",
+              "Will nuclear energy solve climate change?",
+              "Will nuclear energy be used more in the future?",
+              "Will nuclear energy last forever?",
+              "Will nuclear energy be used in the future?",
+              "Will nuclear energy run out?"
+            ],
+            "answers": [
+              "It's quite possible that nuclear energy will make a comeback as countries seek low-carbon energy sources to combat climate change.",
+              "Nuclear energy has the potential to contribute significantly to mitigating climate change due to its low carbon emissions compared to fossil fuels.",
+              "Yes, as technology advances and concerns about climate change grow, it's likely that nuclear energy will be used more in the future.",
+              "Nuclear energy, while abundant, relies on finite resources like uranium. However, with proper management and advanced technologies, it can last for a very long time.",
+              "Given its potential as a low-carbon energy source, nuclear energy is expected to play a role in the future energy mix of many countries.",
+              "Nuclear energy won't 'run out' per se, but the availability of uranium, its primary fuel, is finite. However, with technological advancements and adoption of recycling used fuel, it can be sustained for a long time."
+            ]
+          },
+          {
+            "name": "Organization",
+            "questions": [
+              "What is BWXT?",
+              "What is NRC?",
+              "What is PFM?",
+              "What is TF3?",
+              "What is U.S.?",
+              "What is UK?",
+              "What is USNC?",
+              "What is WNA?"
+            ],
+            "answers": [
+              "BWXT stands for BWX Technologies, Inc.",
+              "NRC stands for the U.S. Nuclear Regulatory Commission.",
+              "PFM stands for Pilot Fuel Manufacturing facility.",
+              "TF3 stands for TRISO-X Fuel Fabrication Facility.",
+              "US stands for the United States.",
+              "UK stands for the United Kingdom.",
+              "USNC stands for the Ultra Safe Nuclear Corporation.",
+              "WNA stands for the World Nuclear Association."
+            ]
+          },
+          {
+            "name": "Purpose",
+            "questions": [
+              "How do scenarios with SWU and mass of enriched uranium provide insights into TRISO availability?",
+              "What is the significance of SWU in nuclear fuel production?",
+              "How has domestic uranium production in the U.S. changed over the past decade?",
+              "What is the purpose of the TRISO-X Fuel Fabrication Facility (TF3)?",
+              "What is the objective of the series of mini-projects mentioned in the text?",
+              "What is the primary objective of the series of mini-projects mentioned in the text?"
+            ],
+            "answers": [
+              "Scenarios incorporating SWU and mass of enriched uranium provide nuanced perspectives on TRISO availability by considering various factors affecting the fuel cycle.",
+              "SWU is significant in nuclear fuel production as it quantifies the effort required to produce enriched uranium, a crucial component in nuclear reactors.",
+              "Domestic uranium production in the U.S. has significantly decreased from around 1800 tonnes in 2013 to less than 100 tonnes in 2022.",
+              "The TRISO-X Fuel Fabrication Facility (TF3) is constructed for the commercial production of X-energy's version of TRISO particle: TRISO-X.",
+              "The objective of the series of mini-projects is to gain a rough understanding of the environmental impacts of various NFC options, focusing on domestic and international enrichment capabilities.",
+              "The primary objective of the series of mini-projects is to develop a comprehensive understanding of the environmental impacts of various NFC options, with a focus on domestic and international enrichment capabilities."
+            ]
+          },
+          {
+            "name": "Reactor Fuel",
+            "questions": [
+              "What kind of fuel was used?",
+              "What are some common isotopes produced during the fission process?",
+              "What is the expected operational lifespan of nuclear power plants built today?",
+              "What are the key characteristics of TRISO coated fuel particles that make them suitable for High-Temperature Gas-cooled Reactors (HTGR)?",
+              "How does the structure of TRISO particles contribute to safety in high-temperature environments?",
+              "Why is gaseous helium coolant used in conjunction with TRISO particles?",
+              "What happens to CO2 with radioactive C-14 and other gaseous fission products in a TRISO-fueled HTGR?",
+              "What is reactor fuel?",
+              "What are the common types of reactor fuel?",
+              "How is reactor fuel manufactured?",
+              "What properties make a material suitable for reactor fuel?",
+              "What is MOX?",
+              "What is NFC?",
+              "What is TRISO?",
+              "What is TRU?",
+              "What is UF?",
+              "What is LEU?"
+            ],
+            "answers": [
+              "There are two types of fuel, the Light Water Reactors are fueled by low enriched uranium oxide fuel while the advanced reactors are fueled by tristructural isotropic fuel that is high assay low enriched uranium.",
+              "Common isotopes produced during fission include Transuranic isotopes (TRU) like 239Pu.",
+              "Nuclear power plants built today could operate for around 60 years.",
+              "TRISO coated fuel particles exhibit excellent performance under high temperatures (700 - 900°C in HTGR cores) and effectively trap fission products within the particles.",
+              "The structure of TRISO particles, combined with gaseous helium coolant, prevents hydrogen explosions in high-temperature environments and ensures that fission products remain contained within the fuel material.",
+              "Gaseous helium coolant is used in conjunction with TRISO particles for its ability to prevent hydrogen explosions and to enhance safety in high-temperature conditions.",
+              "CO2 with radioactive C-14 and other gaseous fission products mix with the helium coolant in the primary cycle of a TRISO-fueled HTGR.",
+              "Reactor fuel refers to the material used to sustain a nuclear chain reaction within a nuclear reactor.",
+              "Common types of reactor fuel include uranium oxide (UO2) and mixed oxide (MOX) fuel.",
+              "Reactor fuel is typically manufactured through processes such as enrichment of uranium, fabrication of fuel pellets, and assembly into fuel rods.",
+              "Reactor fuel materials must possess characteristics such as high fissile content, good thermal conductivity, and stability under irradiation.",
+              "MOX stands for Mixed OXide fuel.",
+              "NFC stands for Nuclear Fuel Cycle.",
+              "TRISO stands for TRi-structural ISOtropic fuel.",
+              "TRU stands for Transuranic isotopes.",
+              "UF stands for Used Fuel. The field is moving away from saying spent fuel as it is potentially misleading in broader applications.",
+              "LEU stands for Low-Enriched Uranium. It refers to uranium with a lower concentration of the fissile isotope U-235 compared to natural uranium or highly enriched uranium."
+            ]
+          },
+          {
+            "name": "Reactor Types",
+            "questions": [
+              "What kind of reactor was used?",
+              "What is an SMR?",
+              "What is an LWR?",
+              "How are nuclear reactors categorized based on moderator and neutron spectrum?",
+              "What types of reactors fall under the category of water-moderated reactors?",
+              "What is the distinguishing feature of fast reactors?",
+              "How are 'LWR-like' and 'Xe-100-like' reactors defined in this study?",
+              "How are 'LWR-like' and 'Xe-100-like' reactors deployed in this work?",
+              "What is BWR?",
+              "What is GCR?",
+              "What is HTGR?",
+              "What is HWR?",
+              "What is LMFBR?",
+              "What is LWR?",
+              "What is MSR?",
+              "What is PWR?",
+              "What is RBMK?"
+            ],
+            "answers": [
+              "The simulations transitioned from the currently deployed Light Water Reactors to an Xe-100-like reactor.",
+              "SMR stands for small modular reactor, a concept wherein a nuclear reactor's parts can be mass-produced (hence the modular) and it's smaller than a traditional LWR.",
+              "LWR stands for light water reactor, a traditional reactor class deployed in the US.",
+              "Nuclear reactors are categorized based on moderator and neutron spectrum, with types including water-moderated reactors and graphite-moderated reactors.",
+              "Water-moderated reactors include Pressurized Water Reactor (PWR), Boiling Water Reactor (BWR), and Heavy Water Reactor (HWR).",
+              "Fast reactors do not have a moderator and can be cooled by liquid metal, such as the Liquid Metal Fast Breeder Reactor (LMFBR).",
+              "In this study, 'LWR-like' and 'Xe-100-like' reactors are defined based on their characteristics and operational principles, with LWRs representing traditional light-water reactors and Xe-100-like reactors symbolizing a new generation of reactors.",
+              "In this work, 'LWR-like' and 'Xe-100-like' reactors are deployed initially with the existing LWRs. When LWRs retire, they are replaced by a sufficient number of Xe-100-like reactors to compensate for the lost energy capacity.",
+              "BWR stands for Boiling Water Reactor.",
+              "GCR stands for Gas Cooled Reactor.",
+              "HTGR stands for High-Temperature Gas-cooled Reactor.",
+              "HWR stands for Heavy Water Reactor.",
+              "LMFBR stands for Liquid Metal Fast Breeder Reactor.",
+              "LWR stands for Light Water Reactor.",
+              "MSR stands for Molten Salt Reactor.",
+              "PWR stands for Pressurized Water Reactor.",
+              "RBMK stands for Graphite-moderated Water-cooled Reactor (a Russian design)."
+            ]
+          },
+          {
+            "name": "Regulations",
+            "questions": [
+              "What recent environmental legislation targets zero emissions from the electric power sector by 2030?",
+              "What challenge to the Chevron Deference Doctrine was before the Supreme Court?",
+              "What is the purpose of the Clean Air Act and similar environmental legislation in the U.S.?",
+              "Why is the Climate and Equitable Jobs Act (CEJA) significant in Illinois?",
+              "Where was Yucca Mountain initially chosen for building a geological deposition facility?",
+              "What are nuclear regulations?",
+              "Why are regulations important in the nuclear industry?",
+              "Who sets nuclear regulations?",
+              "What aspects of nuclear activities do regulations cover?",
+              "What is CEJA?",
+              "What is FB-CVD?"
+            ],
+            "answers": [
+              "Illinois adopted the Climate and Equitable Jobs Act (CEJA) in 2021, aiming for zero emissions from the electric power sector by 2030.",
+              "A case challenging the Chevron Deference Doctrine, which allowed the Department of Energy to regulate gaps in existing regulations, was before the Supreme Court.",
+              "The Clean Air Act and similar legislation aim to regulate air pollution and improve air quality in the U.S., reflecting changing understanding and community feedback.",
+              "The Climate and Equitable Jobs Act (CEJA) is significant in Illinois for targeting zero emissions from the electric power sector by 2030.",
+              "Yucca Mountain in Nevada was initially chosen for building a geological deposition facility but was rejected around 2009.",
+              "Nuclear regulations refer to laws, rules, and standards established to govern the safe, secure, and peaceful use of nuclear energy and radioactive materials.",
+              "Regulations are important in the nuclear industry to ensure the protection of public health and safety, prevent nuclear proliferation, safeguard the environment, and maintain security and accountability in nuclear activities.",
+              "Nuclear regulations are typically set by government agencies or regulatory bodies responsible for overseeing nuclear activities, such as the Nuclear Regulatory Commission (NRC) in the United States or the International Atomic Energy Agency (IAEA) at the international level.",
+              "Regulations cover various aspects of nuclear activities, including reactor safety, radiation protection, nuclear material handling and storage, waste management, transportation, security, non-proliferation, and environmental protection.",
+              "CEJA stands for the Climate and Equitable Jobs Act.",
+              "FB-CVD stands for Fluidized-Bed Chemical Vapor Deposition system."
+            ]
+          },
+          {
+            "name": "Renewable",
+            "questions": [
+              "Are nuclear energy renewable?",
+              "Can nuclear energy coexist successfully with renewables?",
+              "Can nuclear energy be renewable?"
+            ],
+            "answers": [
+              "Nuclear energy is not renewable in the traditional sense, as it relies on finite resources like uranium. However, with advanced fuel cycles and technologies, its sustainability can be extended through recycling used fuels that contain up to 90% of their energy potential after removal from a reactor.",
+              "Yes, nuclear energy can (and should) coexist with renewables in an energy mix, providing a reliable baseload power complemented by intermittent renewable sources.",
+              "Nuclear energy can be renewable if advanced reactor designs and fuel cycles are implemented, utilizing resources like thorium and recycling nuclear waste."
+            ]
+          },
+          {
+            "name": "Reprocessing",
+            "questions": [
+              "What does the reprocessing method aim to achieve with spent fuel?",
+              "How does reprocessing affect the storage duration of waste?",
+              "Why is the reprocessing method currently considered prohibitive?",
+              "What is the objective of mixing plutonium with uranium into Mixed OXIDE fuel (MOX)?",
+              "How did France benefit from uranium availability through reprocessing?",
+              "Why is reprocessing relatively easier for TRISO-fueled HTGRs compared to conventional reactors?",
+              "What is nuclear reprocessing?",
+              "Why is reprocessing conducted?",
+              "What are the main steps involved in reprocessing?",
+              "What are the benefits and challenges of nuclear reprocessing?"
+            ],
+            "answers": [
+              "The reprocessing method aims to separate long-lived Transuranic isotopes (TRU) from fission products in spent fuel.",
+              "Reprocessed waste needs to be stored for only several hundred years compared to thousands of years for unreprocessed spent fuel.",
+              "The cost of reprocessing is currently considered prohibitive, making this method impractical.",
+              "Mixing plutonium with uranium into MOX aims to utilize 96% of the spent fuel and reduce waste.",
+              "Through reprocessing, France saved 17% of the uranium needed to operate its power plants.",
+              "Reprocessing is easier for TRISO-fueled HTGRs due to the robust TRISO coating, which ensures a low failure rate compared to conventional reactors.",
+              "Nuclear reprocessing is the chemical separation of usable materials from spent nuclear fuel to extract reusable fissile material such as uranium and plutonium.",
+              "Reprocessing is conducted to recover valuable fissile materials from spent nuclear fuel, reduce the volume and radiotoxicity of nuclear waste, and enable the recycling of nuclear fuel components.",
+              "The main steps involved in reprocessing include dissolution of spent fuel, separation of fissile materials from other components, purification of extracted materials, and conversion into usable forms for reuse in nuclear reactors.",
+              "The benefits of nuclear reprocessing include resource conservation, waste volume reduction, fuel cycle flexibility, and potential economic advantages. However, challenges include proliferation risks, radioactive waste management, environmental concerns, and high costs associated with reprocessing technologies."
+            ]
+          },
+          {
+            "name": "Safeguards",
+            "questions": [
+              "What are Nuclear Safeguards?",
+              "Why are Nuclear Safeguards Necessary?",
+              "What Types of Nuclear Facilities are Subject to Safeguards?",
+              "How is Compliance with Nuclear Safeguards Verified?"
+            ],
+            "answers": [
+              "Nuclear safeguards are measures implemented to ensure that nuclear materials are used for peaceful purposes and not diverted for the development of nuclear weapons. They achieve this goal by monitoring and controlling the use of nuclear materials. Nuclear safeguards were first introduced with the creation of the International Atomic Energy Agency (IAEA) in 1957. It conducts inspections and verifies compliance with safeguards agreements, and supports states that are building facilities to meet its standards.",
+              "Starting with the Atoms for Peace speech in 1953, the international community has developed a series of systems (safeguards) to allow for the peaceful use of nuclear energy with less threat of spreading or proliferating nuclear weapons.",
+              "Nuclear power plants, research reactors, and any facilities handling nuclear materials are subject to safeguards to ensure their peaceful use.",
+              "Compliance is verified through regular inspections, data analysis, and cooperation between the IAEA and member states. Countries are required to declare their nuclear activities, and inspectors perform unannounced visits to nuclear facilities to ensure compliance. Non-compliance can lead to diplomatic consequences, sanctions, and, in severe cases, referral to the United Nations Security Council for further action."
+            ]
+          },
+          {
+            "name": "Safeguards Dialogue",
+            "questions": [
+              "What is the Purpose of Nuclear Safeguards Dialogue?",
+              "What Topics are Typically Discussed in Nuclear Safeguards Dialogue?",
+              "How Does Nuclear Safeguards Dialogue Contribute to Transparency?",
+              "What Role Does the IAEA Play in Nuclear Safeguards Dialogue?",
+              "What Measures are Taken to Enhance Confidence Building in Nuclear Safeguards Dialogue?"
+            ],
+            "answers": [
+              "The purpose of nuclear safeguards dialogue is to facilitate communication and cooperation between countries, international organizations, and the IAEA to ensure the effective implementation of safeguards. Public perception has evolved from initial skepticism to recognition of the crucial role nuclear safeguards play in promoting international security and preventing nuclear proliferation. Their participation is informed by secondary sources of information, which states share through diplomatic channels, formal agreements, regular meetings, and reporting mechanisms established between countries and the IAEA. Technology sharing agreements like the United States (U.S.) 123 Agreements exist in addition to the IAEA forums, as defined relationships between states in what I would argue is a form of dialogue.",
+              "Topics include the status of nuclear programs, adherence to safeguards agreements, technological advancements, challenges faced, and strategies to enhance cooperation in safeguarding nuclear materials.",
+              "Dialogue contributes to transparency by encouraging open communication about nuclear activities, sharing information about safeguards implementation, and fostering trust among participating nations.",
+              "As an extension of the United Nations, the IAEA plays a central and neutral role in facilitating dialogue, providing technical expertise, conducting inspections, and verifying compliance with safeguards agreements. Countries may choose to hold themselves to standards beyond those set by the international community, but they arbitrate a baseline; helping states that do not possess the infrastructure to verify their standards are being met. If a dispute arises it would typically be addressed through diplomatic means, consultation, and referred to the United Nations Security Council if those steps fail.",
+              "Dialogue happens when states establish transparent frameworks, joint campaigns to inform the public, and the establishment of trust-building mechanisms to enhance confidence among participating nations. Civilians have complementary roles in this whole process by checking that the transparency and trust- building efforts continue. In states, like Sweden and South Korea, with burgeoning nuclear projects, their regional initiatives to bring in affected community members are vital to their repository siting efforts. This continued engagement with the public is crucial for continued trust, especially as technologies evolve. Establishing the validation behind new technologies is only possible through these regional campaigns"
+            ]
+          },
+          {
+            "name": "Safeguards Evolution",
+            "questions": [
+              "What is the Current Status of Global Nuclear Safeguards?",
+              "What were Key Milestones in the Evolution of Nuclear Safeguards?"
+            ],
+            "answers": [
+              "The current status involves ongoing efforts to strengthen safeguards, address emerging challenges, and promote international cooperation to ensure the peaceful use of nuclear energy. Other organizations have arisen to work on agreements and safeguards in specific areas of nuclear, such as the defunct Global Nuclear Energy Partnership (GNEP) with reprocessing.",
+              "Milestones include: The development of the IAEA’s System of Accounting and Control (SYAC), the introduction of comprehensive safeguards agreements, and the implementation of additional protocols. The Treaty on the Non-Proliferation of Nuclear Weapons (NPT), which began in 1970, is another cornerstone of nuclear safeguards history, wherein states committed to preventing the spread of nuclear weapons and promoting peaceful nuclear cooperation. The end of the Cold War led to increased cooperation between nuclear-armed states and contributed to efforts to enhance nuclear transparency and reduce global nuclear arsenals. The Regional Nuclear-Weapon-Free Zones, established in various parts of the world, contributed to nuclear disarmament and non-proliferation efforts, complementing global nuclear safeguards. The Joint Comprehensive Plan of Action (JCPOA), signed in 2015, aimed to address concerns about Iran’s nuclear program by imposing restrictions and enhanced monitoring, showcasing international efforts to strengthen nuclear safeguards."
+            ]
+          },
+          {
+            "name": "Safety",
+            "questions": [
+              "Why nuclear energy is safe?",
+              "Are nuclear energy safe?",
+              "Can nuclear energy cause cancer?",
+              "How is nuclear energy safe?"
+            ],
+            "answers": [
+              "Nuclear energy is considered safe due to stringent regulations, advanced safety features in modern reactor designs, and thorough operational protocols.",
+              "Nuclear energy, when properly regulated and managed like in the US, is safe.",
+              "Exposure to high levels of radiation from nuclear energy can increase the risk of cancer. However, stringent safety measures are in place to minimize this risk. In the US, we are as sure that the public is more likely to be exposed to radiation by a coal plant as we are that we can fly.",
+              "Nuclear energy is considered safe due to stringent regulations, advanced safety features in modern reactor designs, and thorough operational protocols."
+            ]
+          },
+          {
+            "name": "Scenario 1",
+            "questions": [
+              "Can you describe Scenario 1 in terms of U.S. and international enrichment percentages?",
+              "How are Scenarios 1 and 4 similar in terms of infrastructure placement?"
+            ],
+            "answers": [
+              "Scenario 1 involves 100% U.S. enrichment and 0% international enrichment, indicating that all enrichment activities occur within the United States.",
+              "Scenarios 1 and 4 are similar in terms of infrastructure placement because they assume all enrichment facilities are onshore, without distinguishing between existing international and domestic infrastructure."
+            ]
+          },
+          {
+            "name": "Scenario 2",
+            "questions": [
+              "How does Scenario 2 differ from Scenario 1 regarding enrichment percentages?"
+            ],
+            "answers": [
+              "In Scenario 2, there is 60% U.S. enrichment and 40% international enrichment, reflecting a partial reliance on enrichment facilities outside the United States."
+            ]
+          },
+          {
+            "name": "Scenario 3",
+            "questions": [
+              "What changes are observed in Scenario 3 compared to Scenario 1 in terms of enrichment percentages?"
+            ],
+            "answers": [
+              "Scenario 3 shows a shift towards more reliance on international enrichment, with 40% U.S. enrichment and 60% international enrichment."
+            ]
+          },
+          {
+            "name": "Scenario 4",
+            "questions": [
+              "How is international enrichment prioritized in Scenario 4?"
+            ],
+            "answers": [
+              "Scenario 4 prioritizes international enrichment entirely, with 0% U.S. enrichment and 100% international enrichment."
+            ]
+          },
+          {
+            "name": "Scenario Details",
+            "questions": [
+              "Can you describe the scenario depicted in Figure 3? What does it illustrate?",
+              "What does the replacement scheme in Figure 4 depict, and why is it not historical?",
+              "Can you explain the four bounding scenarios outlined in Table 1?",
+              "What are the percentages of U.S. enrichment and international enrichment in each scenario?",
+              "Can you describe the scenario depicted in Figure 3 and its significance?",
+              "What does the replacement scheme in Figure 4 illustrate, and why is it not based on historical data?",
+              "How does the replacement scheme depict the relationship between the deployment of TRISO-fueled reactors and LWRs?",
+              "Can you explain the four bounding scenarios outlined in Table 1 and their implications?",
+              "What does Table 1 summarize?",
+              "How many scenarios are presented in Table 1?",
+              "What does the percentage of U.S. enrichment represent in each scenario?",
+              "What does the percentage of international enrichment represent in each scenario?",
+              "Why are varying percentages of U.S. and international enrichment explored across scenarios?",
+              "Can you describe any other common metrics used in nuclear fuel cycle analysis?",
+              "What determines the replacement of retired LWRs with Xe-100-like reactors?",
+              "In the most U.S.-centric scenario, where are all the enrichment facilities located?",
+              "Why does the number of Xe-100-like reactors increase dramatically over time?",
+              "What distinguishes the U.S.-centric scenario from others regarding enrichment facilities?",
+              "How does the study address the environmental impact of enrichment processes?"
+            ],
+            "answers": [
+              "The scenario depicted in Figure 3 illustrates the total number of reactors deployed over time.",
+              "The replacement scheme depicted in Figure 4 illustrates the deployment of TRISO-fueled reactors to meet energy demand as LWRs retire. It is not historical but demonstrates the relationship between TRISO-fueled reactors and LWR deployment.",
+              "The four bounding scenarios outlined in Table 1 are Scenario 1, Scenario 2, Scenario 3, and Scenario 4.",
+              "In Scenario 1, 100% of enrichment is from the U.S. and 0% from international sources. In Scenario 2, it's 60% U.S. enrichment and 40% international enrichment. In Scenario 3, it's 40% U.S. enrichment and 60% international enrichment. In Scenario 4, 0% of enrichment is from the U.S., and 100% is from international sources.",
+              "Figure 3 illustrates the total number of reactors deployed over time, providing valuable information about the evolution of reactor deployment.",
+              "The replacement scheme in Figure 4 illustrates the deployment of TRISO-fueled reactors to meet energy demand as LWRs retire. While it is not based on historical data, it demonstrates potential deployment patterns.",
+              "The replacement scheme shows how the deployment of TRISO-fueled reactors correlates with the retirement of LWRs, offering insights into the relationship between different reactor technologies.",
+              "The four bounding scenarios outlined in Table 1—Scenario 1, Scenario 2, Scenario 3, and Scenario 4—offer different perspectives on the distribution of enrichment sources and their implications for the fuel cycle.",
+              "Table 1 summarizes different scenarios related to U.S. and international enrichment percentages.",
+              "There are four scenarios presented in Table 1.",
+              "The percentage of U.S. enrichment represents the proportion of uranium enrichment conducted within the United States for each scenario.",
+              "The percentage of international enrichment represents the proportion of uranium enrichment conducted outside the United States for each scenario.",
+              "Varying percentages of U.S. and international enrichment are explored across scenarios to understand the implications of different enrichment strategies on the overall fuel cycle.",
+              "Other common metrics used in nuclear fuel cycle analysis include burnup, reactor capacity factor, and fuel cycle cost.",
+              "The replacement of retired LWRs with Xe-100-like reactors is determined based on historical trends or an 80-year license limit, ensuring the continuous generation of energy capacity.",
+              "In the most U.S.-centric scenario, all enrichment facilities are located onshore within the United States.",
+              "The number of Xe-100-like reactors increases significantly over time as they replace retiring LWRs to maintain energy capacity.",
+              "In the U.S.-centric scenario, all enrichment facilities are assumed to be located within the United States, regardless of existing international infrastructure.",
+              "The study assesses the environmental impact of enrichment processes by analyzing scenarios with varying enrichment facility locations and their implications for nuclear fuel cycle sustainability."
+            ]
+          },
+          {
+            "name": "Scenario Differences",
+            "questions": [
+              "What distinguishes Scenarios 2 and 3 from Scenarios 1 and 4?"
+            ],
+            "answers": [
+              "Scenarios 2 and 3 differ from Scenarios 1 and 4 in terms of the distribution of enrichment facilities, leading to distinct shapes in their SWU capacity requirements."
+            ]
+          },
+          {
+            "name": "Scenario Implementation",
+            "questions": [
+              "What is the purpose of deploying reasonable Nuclear Fuel Cycle (NFC) facilities in the U.S. in the scenario?",
+              "What is the purpose of deploying reasonable Nuclear Fuel Cycle (NFC) facilities in the U.S. in the scenario discussed?",
+              "How many bounding scenarios were developed, and what do they aim to explore?",
+              "How are Scenarios 2 and 3 depicted in comparison to Scenario 2?",
+              "What determines the transition from LWRs to Xe-100-like reactors?",
+              "What contributes to the consistent SWU capacity requirements during the 2020-2030 period?",
+              "How are Scenarios 2 and 3 represented differently compared to Scenario 2?"
+            ],
+            "answers": [
+              "Deploying reasonable Nuclear Fuel Cycle (NFC) facilities in the U.S. isolates the impact of enrichment location and facilitates analysis of the fuel cycle.",
+              "Deploying NFC facilities in the U.S. isolates the impact of enrichment location, facilitating a focused analysis of the domestic fuel cycle scenario.",
+              "Four bounding scenarios were developed to explore the impact of varying levels of domestic and international enrichment capabilities on the fuel cycle.",
+              "Scenarios 2 and 3 are depicted together, with Scenario 2 zoomed in to highlight periodic requests for SWU.",
+              "The transition from LWRs to Xe-100-like reactors is determined by historical trends or regulatory factors such as the expiration of reactor licenses.",
+              "The consistent SWU capacity requirements during the 2020-2030 period are influenced by the gradual transition from LWRs to Xe-100-like reactors and associated energy demands.",
+              "Scenarios 2 and 3 are depicted together, with Scenario 2 magnified to highlight specific fluctuations in SWU requests."
+            ]
+          },
+          {
+            "name": "Scenario Setup",
+            "questions": [
+              "How many bounding scenarios were developed, and what do they vary?"
+            ],
+            "answers": [
+              "Four bounding scenarios were developed to vary the share of domestic and international enrichment capabilities."
+            ]
+          },
+          {
+            "name": "Scenario Setup",
+            "questions": [
+              "How many bounding scenarios were developed, and what do they vary?"
+            ],
+            "answers": [
+              "Four bounding scenarios were developed to vary the share of domestic and international enrichment capabilities."
+            ]
+          },
+          {
+            "name": "Software",
+            "questions": [
+              "What is Cyclus, and how is it described in terms of versatility?",
+              "According to one of the initial core developers, what analogy is used to highlight Cyclus's versatility?",
+              "How does Cyclus achieve its versatility?",
+              "What are archetypes in the context of Cyclus?",
+              "What types of archetypes have been developed by the user community and developers for Cyclus?",
+              "How versatile is Cyclus according to one of its core developers?",
+              "Can you provide examples of the types of processes Cyclus can model?",
+              "What role do archetypes play in Cyclus simulations?",
+              "How have users and developers expanded Cyclus's capabilities over time?"
+            ],
+            "answers": [
+              "Cyclus is described as an agent-based NFC simulator known for its exceptional versatility.",
+              "According to one of the initial core developers, Cyclus can be used to model any process, likened to making a grilled-cheese sandwich or international nuclear fuel cycles.",
+              "Cyclus achieves its versatility through a series of generic archetypes that are primarily transaction-based.",
+              "In the context of Cyclus, archetypes refer to generic models representing various components or processes within the simulation.",
+              "The user community and developers have created numerous nuclear-specific archetypes for tasks ranging from proliferation assessment to fuel burnup.",
+              "According to one of its core developers, Cyclus is incredibly versatile, capable of modeling a wide range of processes, from simple tasks like making a grilled-cheese sandwich to complex international nuclear fuel cycles.",
+              "Examples of processes Cyclus can model include fuel fabrication, reactor operation, and spent fuel management.",
+              "In Cyclus simulations, archetypes serve as generic models representing various components or processes, facilitating the creation of diverse simulations.",
+              "Users and developers have expanded Cyclus's capabilities by creating specific archetypes tailored to nuclear-related tasks such as proliferation assessment and fuel burnup analysis."
+            ]
+          },
+          {
+            "name": "SWU",
+            "questions": [
+              "What is the significance of separative work units (SWU) and the mass of enriched uranium in fuel cycle analysis?",
+              "Why are separative work units (SWU) and the mass of enriched uranium significant in fuel cycle analysis?",
+              "What does SWU stand for, and what does it measure?",
+              "Can you explain the formula for calculating SWU?",
+              "What does each component in the SWU formula represent?",
+              "What is the unit of measurement for SWU?",
+              "How is SWU measured?",
+              "What is SWU?"
+            ],
+            "answers": [
+              "Separative work units (SWU) and the mass of enriched uranium are significant in fuel cycle analysis as they provide a granular look at TRISO availability and help evaluate different fuel source scenarios.",
+              "Separative work units (SWU) and the mass of enriched uranium are significant in fuel cycle analysis as they offer detailed insights into TRISO availability and help evaluate different fuel source scenarios.",
+              "SWU stands for Separative Work Units, which is a measure of effort involved in producing nuclear fuel.",
+              "The formula for calculating SWU is SWU = Q(CpCf).",
+              "In the SWU formula, Q represents the quantity of material processed, Cp represents the enrichment level of the product, and Cf represents the enrichment level of the feed.",
+              "SWU is measured in kilograms of SWU (kgSWU)."
+            ]
+          },
+          {
+            "name": "TRISO",
+            "questions": [
+              "What is TRISO?",
+              "Where is TRISO commonly used?",
+              "How is TRISO fuel different from conventional nuclear fuel?",
+              "What are the advantages of TRISO fuel?"
+            ],
+            "answers": [
+              "TRISO stands for Tristructural Isotropic fuel. It is a type of nuclear fuel particle consisting of layers of different materials designed to encapsulate nuclear fuel, typically uranium, in a robust matrix.",
+              "TRISO fuel is commonly used in High-Temperature Gas-cooled Reactors (HTGRs) due to its excellent retention properties and high-temperature tolerance.",
+              "TRISO fuel differs from conventional nuclear fuel in that it is encapsulated in multiple layers of materials, providing enhanced safety and containment of radioactive materials even under high temperatures.",
+              "The advantages of TRISO fuel include its high resistance to temperature, chemical stability, excellent retention of radioactive isotopes, and reduced risk of release even under severe accident conditions."
+            ]
+          },
+          {
+            "name": "Waste Management",
+            "questions": [
+              "What type of waste is generated during uranium mining and milling?",
+              "How do the radioactive wastes produced by TRISO-fueled High-Temperature Gas-cooled Reactors (HTGRs) differ from those of conventional reactors?",
+              "How does France manage spent fuel through reprocessing?",
+              "How could closing the fuel cycle with reprocessing improve a country's energy security?",
+              "What challenges are posed by transuranic isotopes in waste management?",
+              "What disposal strategies are proposed for managing nuclear waste?",
+              "Which disposal method has been implemented by Finland?",
+              "What challenges hinder the implementation of geological disposal in the U.S.?",
+              "What is the status of the long-term waste management plan in the U.S.?",
+              "What alternative approach does Finland adopt for waste management?",
+              "What solution is under development in France for geological deposition?",
+              "What role does irradiated graphite serve in contributing to radioactive waste volume in HTGRs?",
+              "IPyC stands for Inner PyroCarbon layer.",
+              "OPyC stands for Outer PyroCarbon layer."
+            ],
+            "answers": [
+              "Uranium mining and milling generate waste with low radioactivity, while enrichment produces depleted uranium.",
+              "The radioactive wastes from TRISO-fueled HTGRs differ from conventional reactors as CO2 with radioactive C-14 and other gaseous fission products are contained within the fuel particles, while solid fission products remain in the particles unless the coats are damaged.",
+              "France reprocesses spent fuel by extracting plutonium and mixing it with uranium to create Mixed OXide fuel (MOX).",
+              "Closing the fuel cycle with reprocessing could enhance a country's energy security by utilizing available uranium resources more efficiently.",
+              "Transuranic isotopes pose challenges in waste management due to their long half-lives, such as 239Pu with a half-life of 24,000 years.",
+              "Proposed disposal strategies for nuclear waste include geological disposal, seabed disposal, deep hole disposal, space disposal, and waste processing and transmutation.",
+              "Finland has implemented geological disposal as a method for nuclear waste management.",
+              "Challenges hindering the implementation of geological disposal in the U.S. include political pressures despite proven technical validity.",
+              "The U.S. does not have a long-term waste management plan at present.",
+              "Finland has built a similar geological deposition facility on Olkiluoto Island, managed by the company Posiva.",
+              "Similar geological deposition methods are under development under the CIGEO solution in France.",
+              "Irradiated graphite serves as a reflector in HTGRs and significantly contributes to the volume of radioactive waste produced."
+            ]
+          },
+          {
+            "name": "greeting",
+            "questions": [
+                "Hi",
+                "Hello",
+                "How are you",
+                "How's it going",
+                "What's up",
+                "Is anyone there",
+                "Good day",
+                "What are you?",
+                "What can you tell me?"
+            ],
+            "answers": [
+                "Hello!",
+                "Hi, how can I help you?",
+                "Hello, thanks for visiting!",
+                "Hello, thanks for visiting!",
+                "Hello, thanks for visiting!",
+                "Hello, thanks for visiting!",
+                "Hello, thanks for visiting!",
+                "I am a question bank with basic information about a nuclear fuel transition study.",
+                "I can tell you about the study, and answer basic questions about nuclear energy, nuclear fuel, waste management, TRISO fuel, and transition analysis."
+            ]
+          },
+          {
+            "name": "goodbye",
+            "questions": [
+                "Bye",
+                "See you",
+                "See you later",
+                "Goodbye"],
+            "answers": [
+                "See you later, thanks for visiting!",
+                "Have a nice day!",
+                "Have a nice day!",
+                "Goodbye, come back again soon!"
+            ]
+          },
+          {
+            "name": "off limits",
+            "questions": [
+                "What is Nathan's bank account number?",
+                "Where is Nathan located?",
+                "Where does Nathan live?",
+                "What is your social security number?",
+                "Can you provide me with your bank account details?",
+                "What is your mother's maiden name?",
+                "What is your home address?",
+                "Can you share your login credentials for any online accounts?",
+                "What are your credit card details?",
+                "Can you tell me your passport number?",
+                "What is your date of birth?",
+                "Can you provide me with your medical history?",
+                "What is your personal identification number (PIN)?",
+                "Can you share any sensitive personal information about others?",
+                "What is your salary or income?",
+                "Can you disclose any confidential information from your workplace?",
+                "What are your security questions and answers for online accounts?",
+                "Can you provide me with your login credentials for any government services or websites?"
+            ],
+            "answers": [
+                "I am not at liberty to say.",
+                "That is not something I can speak to.",
+                "I suggest you email Nathan directly at nathanryan.nuc@gmail.com if you want to know the answer to that.",
+                "That is outside my purview.",
+                "Is there something else I can help you with?",
+                "I am not at liberty to say.",
+                "I am not at liberty to say.",
+                "I am not at liberty to say.",
+                "I am not at liberty to say.",
+                "I am not at liberty to say.",
+                "I am not at liberty to say.",
+                "I am not at liberty to say.",
+                "I am not at liberty to say.",
+                "I am not at liberty to say.",
+                "I am not at liberty to say.",
+                "I am not at liberty to say.",
+                "I am not at liberty to say.",
+                "I am not at liberty to say."
+            ]
+          }
+    ]
+}
