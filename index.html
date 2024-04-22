@@ -19,15 +19,16 @@
     <!-- Bootstrap CSS / Color Scheme -->
     <link rel="stylesheet" href="css/default.css" id="theme-color">
 
-    <style type="text/css">body {
+    <style type="text/css">
+        /* body {
             font-family: monospace;
             background-color: #222;
             color: #fff;
             padding: 20px;
-        }
+        } */
         #chat-container {
             width: 100%;
-            max-width: 600px;
+            max-width: 800px;
             margin: 0 auto;
             border: 2px solid #fff;
             border-radius: 5px;
@@ -336,7 +337,7 @@
                         // and receiving a response from your chat bot.
                         // For demonstration purposes, let's just echo back the user's message.
                         const botResponse = document.createElement('p');
-                        botResponse.textContent = "Bot: Echoing back - " + message;
+                        botResponse.textContent = "Corey: " + message;
                         chatBox.appendChild(botResponse);
                         // Scroll to the bottom of the chat box to show the latest message
                         chatBox.scrollTop = chatBox.scrollHeight;
