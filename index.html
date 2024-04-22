@@ -306,7 +306,7 @@
         <div class="row">
             <div class="col-md-6 mx-auto text-center">
                 <h2>Get the Basics</h2>
-                <p class="text-muted lead">Ask simple questions of our chatbot, Corey. We've given them answers to everything from fuel types to reactor types.</p>
+                <p class="text-muted lead">Navigate through our FAQ with the help of Corey. We've given them answers to everything from fuel types to reactor types. Just ask Corey to `list categories`, and then type the category and existing question you want answered.</p>
             </div>
         </div>
         <div id="chat-container">
@@ -343,8 +343,19 @@
                 newMessage.textContent = "> " + message;
                 chatBox.appendChild(newMessage);
 
+                const lowercaseMessage = message.toLowerCase().trim();
+
+                // Check if the message is a request to list categories
+                if (lowercaseMessage === "list categories") {
+                    const categoriesList = jsonData.categories.map(cat => cat.name).join(', ');
+                    const botResponse = document.createElement('p');
+                    botResponse.textContent = "Available categories: " + categoriesList;
+                    chatBox.appendChild(botResponse);
+                    return; // Exit the function to prevent further processing
+                }
+
                 // Check if the message is a category
-                const category = jsonData.categories.find(cat => cat.name.toLowerCase() === message.toLowerCase());
+                const category = jsonData.categories.find(cat => cat.name.toLowerCase() === lowercaseMessage);
                 if (category) {
                     category.questions.forEach(question => {
                         const botResponse = document.createElement('p');
@@ -355,7 +366,7 @@
                     // Check if the message is a question within a category
                     let found = false;
                     jsonData.categories.forEach(category => {
-                        const foundQuestion = category.questions.find(q => q.toLowerCase() === message.toLowerCase());
+                        const foundQuestion = category.questions.find(q => q.toLowerCase() === lowercaseMessage);
                         if (foundQuestion) {
                             const botResponse = document.createElement('p');
                             botResponse.textContent = category.answers[category.questions.indexOf(foundQuestion)];
@@ -369,6 +380,11 @@
                         chatBox.appendChild(botResponse);
                     }
                 }
+
+    // Scroll to the bottom of the chat box to show the latest message
+    chatBox.scrollTop = chatBox.scrollHeight;
+}
+
 
                 // Scroll to the bottom of the chat box to show the latest message
                 chatBox.scrollTop = chatBox.scrollHeight;
