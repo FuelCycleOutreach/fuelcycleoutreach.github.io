@@ -802,7 +802,7 @@
               "What is the status of the long-term waste management plan in the U.S.?",
               "What alternative approach does Finland adopt for waste management?",
               "What solution is under development in France for geological deposition?",
-              "What role does irradiated graphite serve in contributing to radioactive waste volume in HTGRs?",
+              "What role does irradiated graphite serve in contributing to radioactive waste volume in HTGRs?"
             ],
             "answers": [
               "Uranium mining and milling generate waste with low radioactivity, while enrichment produces depleted uranium.",
@@ -860,3 +860,4 @@
           }
     ]
 }
+
