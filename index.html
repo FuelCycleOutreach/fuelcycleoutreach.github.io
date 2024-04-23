@@ -306,7 +306,7 @@
         <div class="row">
             <div class="col-md-6 mx-auto text-center">
                 <h2>Get the Basics</h2>
-                <p class="text-muted">Navigate through our FAQ with the help of Corey. We've given them answers to everything from fuel types to reactor types. Just ask Corey to `list categories`, and then type the category and existing question you want answered.</p>
+                <p class="text-muted">Navigate through our FAQ with the help of Corey. We've given them answers to everything from fuel types to reactor types. Just ask Corey to `list`, and then type the category and existing question you want answered.</p>
             </div>
         </div>
         <div id="chat-container">
@@ -346,7 +346,7 @@
                 const lowercaseMessage = message.toLowerCase().trim();
 
                 // Check if the message is a request to list categories
-                if (lowercaseMessage === "list categories") {
+                if (lowercaseMessage === "list") {
                     const categoriesList = jsonData.categories.map(cat => cat.name).join(', ');
                     const botResponse = document.createElement('p');
                     botResponse.textContent = "Available categories: " + categoriesList;
